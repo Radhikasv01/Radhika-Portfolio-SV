@@ -1,0 +1,317 @@
+/* 🔥 RESET (VERY IMPORTANT) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* ✅ GLOBAL SECTION */
+section {
+  width: 100%;
+}
+
+/* ================= NAVBAR ================= */
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+}
+
+.navbar h2 {
+  font-size: 20px;
+}
+
+.navbar ul {
+  list-style: none;   /* 🔥 bullet remove */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 30px;
+}
+
+.navbar li {
+  border: none;       /* 🔥 border remove */
+}
+
+.navbar a {
+  text-decoration: none;  /* 🔥 underline remove */
+  color: black;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  color: #5a67d8;   /* optional hover */
+}
+
+/* ================= HOME ================= */
+.home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 100px;
+  min-height: 100vh;
+}
+
+.home-left {
+  flex: 1;
+  width: 45%;
+}
+
+.home-left h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.home-left h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.home-left p {
+  margin-bottom: 20px;
+  color: gray;
+}
+
+.home-left button {
+  background: #5a67d8;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.home-right {
+  flex: 1;
+  width: 45%;
+  display: flex;
+  justify-content: center;
+}
+
+.home-right img {
+  width: 80%;
+  max-width: 300px;
+  height: 500px;
+  border-radius: 20px;
+}
+/* Buttons */
+.buttons{
+  margin-top:20px;
+  display:flex;
+  gap:15px;
+}
+
+.btn-primary{
+  background:#6366F1;
+  color:white;
+  padding:12px 24px;
+  border-radius:8px;
+  text-decoration:none;
+}
+
+.btn-secondary{
+  background:#6366F1;
+  color:white;
+  padding:12px 24px;
+  border-radius:8px;
+  text-decoration:none;
+}
+
+
+/* ================= ABOUT ================= */
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 100px;
+  background: #f9f9f9;
+}
+
+.about-left {
+  width: 50%;
+}
+
+.about-left h2 {
+  margin-bottom: 15px;
+}
+
+.skills-card {
+  width: 45%;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.skills-card ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.skills-card li {
+  margin-bottom: 8px;
+}
+
+/* ================= PROJECTS ================= */
+.projects {
+  padding: 80px 100px;
+}
+
+.projects h2 {
+  margin-bottom: 30px;
+}
+
+.project-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 300px;
+  background: #f5f5f5;
+  padding: 15px;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card h3 {
+  margin: 10px 0;
+}
+
+.card p {
+  font-size: 14px;
+  color: gray;
+}
+
+.card button {
+  margin-top: 10px;
+  background: #5a67d8;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* ================= CONTACT ================= */
+.contact {
+  padding: 80px 100px;
+}
+
+.contact h2 {
+  margin-bottom: 30px;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.contact-form textarea {
+  height: 120px;
+}
+
+.contact-form button {
+  background: #5a67d8;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* ================= FOOTER ================= */
+.footer {
+  background: #0f172a;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 20px;
+  }
+
+  .home {
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 20px;
+  }
+
+  .home-right img {
+    margin-top: 20px;
+  }
+
+  .about {
+    flex-direction: column;
+    padding: 50px 20px;
+  }
+
+  .about-left {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .projects {
+    padding: 50px 20px;
+  }
+
+  .contact {
+    padding: 50px 20px;
+  }
+  html {
+  scroll-behavior: smooth;
+}
+}
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+.social-icons{
+  margin-top:20px;
+  display:flex;
+  gap:20px;
+}
+
+.social-icons a{
+  font-size:24px;
+  color:#374151;
+  transition:0.3s;
+}
+
+.social-icons a:hover{
+  color:#6366F1;
+  transform:scale(1.2);
+}
