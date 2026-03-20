@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Radhika-Portfolio-SV/static/css/main.7a7676d4.css",
+    "main.js": "/Radhika-Portfolio-SV/static/js/main.297423c6.js",
+    "static/js/453.b813cae6.chunk.js": "/Radhika-Portfolio-SV/static/js/453.b813cae6.chunk.js",
+    "static/media/Portfolio.png": "/Radhika-Portfolio-SV/static/media/Portfolio.35cc0c1051d9dbe19094.png",
+    "static/media/Radhika.jpg": "/Radhika-Portfolio-SV/static/media/Radhika.72413be6ffbddb42a9b5.jpg",
+    "static/media/Student.png": "/Radhika-Portfolio-SV/static/media/Student.989d77e1cf91d9d9f804.png",
+    "static/media/Task.png": "/Radhika-Portfolio-SV/static/media/Task.d6ef9cf8703f6ea396aa.png",
+    "index.html": "/Radhika-Portfolio-SV/index.html",
+    "main.7a7676d4.css.map": "/Radhika-Portfolio-SV/static/css/main.7a7676d4.css.map",
+    "main.297423c6.js.map": "/Radhika-Portfolio-SV/static/js/main.297423c6.js.map",
+    "453.b813cae6.chunk.js.map": "/Radhika-Portfolio-SV/static/js/453.b813cae6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a7676d4.css",
+    "static/js/main.297423c6.js"
+  ]
+}
